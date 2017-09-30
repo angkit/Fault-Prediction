@@ -8,6 +8,8 @@ from sklearn.feature_extraction import DictVectorizer as DV
 from sklearn.svm import SVC, LinearSVC
 import csv
 # Training data
+# Data preparation with pandas
+
 
 df1= pd.read_csv('train.csv')
 df2= pd.read_csv('log_feature.csv')
